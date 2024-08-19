@@ -3,6 +3,7 @@
 # Create and activate a new virtual environment
 python3 -m venv dingo-bns-env
 source dingo-bns-env/bin/activate
+pip install --upgrade pip
 
 # Clone the Dingo repository and checkout the Dingo-BNS branch
 git clone https://github.com/dingo-gw/dingo.git
