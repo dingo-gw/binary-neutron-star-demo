@@ -46,7 +46,7 @@ dingo_pipe GW170817.ini
 
 ### Expected output
 The above command runs `dingo_pipe` locally, creating several directories. The result 
-files are stored in the `result` folder, which also contains plots that visualize the 
+files are stored in the `outdir/result` folder, which also contains plots that visualize the 
 importance weights and a corner plot comparing the neural network prediction to the 
 importance sampled result.
 
