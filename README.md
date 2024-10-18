@@ -44,6 +44,11 @@ merged into main, but instead contained in a separate
 installation script thus downloads the Dingo development repo, switches to the 
 Dingo-BNS branch and then installs Dingo manually. 
 
+After successful installation, the virtual environment can be activated with 
+```shell
+source dingo-bns-env/bin/activate
+```
+
 
 ## Citation
 ```
