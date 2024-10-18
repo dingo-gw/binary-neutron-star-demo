@@ -4,13 +4,17 @@ This demo performs inference for GW170817 with the settings from the [LVK parame
 estimation paper](https://link.aps.org/doi/10.1103/PhysRevX.9.011001) (with some small 
 differences, such as omitting marginalization over detector calibration uncertainty).
 A corresponding Dingo-BNS model is provided, so this demo can be run without training.
-Inference can be run on stanard hardware, a GPU is not required.
+Inference can be run on standard hardware, a GPU is not required.
 
 
 ### Preparation
 
-Activate the virtual environment with the Dingo-BNS installation (see project README 
-for installation instructions). Navigate into the present `GW170817` directory.  
+Navigate into the present `GW170817` directory. Activate the virtual environment with 
+the Dingo-BNS installation (see project README 
+for installation instructions) with
+```shell
+source ../dingo-bns-env/bin/activate
+```
 
 ### Data download
 
