@@ -13,7 +13,7 @@ Navigate into the present `GW170817` directory. Activate the virtual environment
 the Dingo-BNS installation (see project README 
 for installation instructions) with
 ```shell
-source ../dingo-bns-env/bin/activate
+source ../../dingo-bns-env/bin/activate
 ```
 
 ### Data download
