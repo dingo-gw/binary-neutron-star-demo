@@ -4,6 +4,23 @@ This repository contains demos for running the machine learning framework Dingo-
 which performs fast and accurate inference of gravitational waves from binary neutron 
 stars.
 
+---
+**NOTE**: We have made some updates to the main code. If you have followed the 
+setup instructions in the past, you will need to update the installation with the 
+commands below. If you start with a fresh installation, you can ignore this note.
+
+```shell
+# update dingo installation
+cd ../dingo
+git pull
+
+# update bilby_pipe in the virtual environment
+source ../dingo-bns-env/bin/activate
+pip install bilby-pipe==1.4
+```
+
+---
+
 
 ## System requirements
 
